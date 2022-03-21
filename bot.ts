@@ -5,7 +5,7 @@ import {
   Update,
   UpdateMessage,
   UpdateType,
-} from "tbac";
+} from "./deps.ts";
 
 export abstract class UpdateEvent extends Event {
   abstract readonly payload: Update;
